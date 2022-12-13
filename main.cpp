@@ -13,7 +13,8 @@ public:
         Greeting object1 (word1, word2);
     }
 
-    class Greeting {
+    class Greeting
+    {
         std::string m_word1;
         std::string m_word2;
         
