@@ -9,7 +9,7 @@ Greeting::~Greeting() {
 }
 
 Handling::Handling(const std::string& str1, const std::string& str2) {
-    Greeting g = {str1, str2};
+    Greeting g {str1, str2};
     std::cout << ", ";
 }
 
@@ -23,5 +23,5 @@ GreetingHandling::GreetingHandling() {
 }
 
 GreetingHandling::GreetingHandling(const std::string& str1, const std::string& str2) {
-    Handling h(str1,str2);
+    Handling h{str1,str2};
 }
